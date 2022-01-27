@@ -1,4 +1,16 @@
 {
+    "name": "davidmosna/homework-modern-php",
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Mošna",
+            "email": "mail@davidmosna.cz"
+        }
+    ],
     "require-dev": {
         "monolog/monolog": "^1.23"
     }
