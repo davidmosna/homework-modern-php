@@ -16,6 +16,7 @@ class FilterDecorator extends \FilterIterator
 
     public function accept(): bool
     {
-        return parent::current() !== $this->filter;
+        return parent::current() !== $this->filter &&
+            parent::current() !== PHP_EOL;
     }
 }
